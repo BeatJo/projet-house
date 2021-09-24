@@ -1,7 +1,10 @@
-const ButtonRadius = ({title, borderColor, color}) => {
+import { Link } from "react-router-dom";
+
+const ButtonRadius = ({title, path, borderColor, color, fontColor, fontSize}) => {
     
     return (
-        <div
+        <Link
+            to={path}
             style={{
                 padding: 8,
                 border: "solid",
@@ -10,12 +13,14 @@ const ButtonRadius = ({title, borderColor, color}) => {
                 borderRadius: 30,
                 marginRight: 10,
                 marginLeft: 10,
-                color: "white",
+                color: fontColor,
+                fontSize: fontSize,
                 backgroundColor: color,
                 cursor: 'pointer',
-                width: 'max-content'
+                width: 'max-content',
+                textDecoration: 'none'
             }}
-        >{title}</div>
+        >{title}</Link>
     )
 }
 

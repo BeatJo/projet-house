@@ -44,7 +44,7 @@ const HomeScreen = () => {
   const contentWrapper = React.useRef(null);
 
   return ( 
-    <Container header footer>
+    <Container header active="Accueil" footer>
       <Slider slides={SliderData} />
       <div>
         <TitleCustom title="NOS SERVICES" />
@@ -167,7 +167,7 @@ const HomeScreen = () => {
                   Je suis intéressé
                 </div>
                 <div className="projects-content-bottom">
-                  {item.cash} XAF Déjà investi
+                  {item.cash} 000 000 XAF Déjà investi
                   <AiOutlineHeart fill={"#c5473b"} size={25} />
                 </div>
               </div>

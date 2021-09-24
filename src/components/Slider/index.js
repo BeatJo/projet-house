@@ -51,7 +51,7 @@ const Slider = ({slides}) => {
                       <h1 id="title">{slide.title}</h1>
                       <p>{slide.subtitle}</p>
                       <div style={{display: 'flex', flexDirection: 'row'}}>
-                      {slide.label.map((item) => <ButtonRadius title={item.text} color={item.backgroundColor} borderColor={item.color} />)}
+                      {slide.label.map((item) => <ButtonRadius title={item.text} color={item.backgroundColor} borderColor={item.color} fontColor="white" />)}
                       </div>
                     </div>
                 </div>
