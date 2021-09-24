@@ -91,25 +91,34 @@ const projectsData = [
     image: proj1,
     title: "TITRE DU PROJET",
     content: "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.",
-    cash: "500 000 000"
+    cash: "500",
+    like: 100,
+    contribution: 30,
   },
   {
     image: proj2,
     title: "TITRE DU PROJET",
     content: "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.",
-    cash: "10 000 000"
+    cash: "10",
+    like: 250,
+    contribution: 20,  
   },
   {
     image: proj3,
     title: "TITRE DU PROJET",
     content: "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.",
-    cash: "500 000 000"
+    cash: "500",
+    like: 200,
+    contribution: 25,
   },
   {
     image: proj3,
     title: "TITRE DU PROJET",
     content: "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.",
-    cash: "500 000 000"
+    cash: "500",
+    like: 150,
+    contribution: 10,
+
   },
 ]
 
