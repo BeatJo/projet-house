@@ -1,0 +1,20 @@
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.aside {
+    display: flex;
+    flex: 25%;
+    background-color: #c5473b;
+}
+
+.img-contain {
+    flex: 75%;
+}
+
+.img-c {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}

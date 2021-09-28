@@ -3,8 +3,11 @@ import { FaRegUser } from "react-icons/fa";
 import { RiLock2Line } from "react-icons/ri";
 import { GiShakingHands } from "react-icons/gi";
 import { useState } from "react";
+import { useHistory } from "react-router-dom";
 
 const RegisterForm = () => {
+
+  const history = useHistory();
   
   const [type, setType] = useState('personal');
   const imprt = [
@@ -92,7 +95,7 @@ const RegisterForm = () => {
         </div>
         <p style={{paddingTop: 0, cursor: 'pointer'}}>Mot de Passe oublié ?</p>
         </div>
-            <input className="but" type="submit"></input>
+            <input onClick={() => {history.push("/create-project")}} className="but" type="submit"></input>
       </form>
     )
 }

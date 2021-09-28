@@ -124,7 +124,7 @@ const TownProjects = () => {
         </Card>
         <div className="projects-cards-plus">
           <div className="projects-cards-plus-button">
-              Voir plus
+              En savoir plus
           </div>
         </div>
         </div>
