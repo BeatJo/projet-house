@@ -1,11 +1,11 @@
+import { Box } from "@mui/material";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
-    const ButtonCustom = styled(Link)`
-        background: ${({ primary }) => (primary ? '#000d1a' : 'CD853F')};
+    const ButtonCustom = styled(Box)`
+        background: ${({ primary }) => (primary ? '#c5473b' : '#fff')};
         white-space: nowrap;
         outline: none;
-        border: none;
         min-width: 100px;
         max-width: 200px;
         cursor: pointer;
@@ -15,13 +15,15 @@ import styled from "styled-components";
         justify-content: center;
         align-items: center;
         height: 100%;
-        padding: ${({ big }) => (big ? '16px 40px' : '14px 24px')};
-        font-size: ${({ big }) => (big ? '20px' : '14px')};
-        color: ${({ primary }) => (primary ? '#fff' : '#000d1a')};
+        padding: ${({ big }) => (big ? '10px 30px' : '14px 24px')};
+        font-size: ${({ big }) => (big ? '16px' : '14px')};
+        color: ${({ primary }) => (primary ? '#fff' : '#c5473b')};
+        border: 1px solid #c5473b;
+        cursor: pointer;
 
         &:hover {
-            background: #cd853f;
-            transform: translateY(-2px)
+            opacity: 0.8;
+            transform: scale(1.02)
         }
     `
 export default ButtonCustom;

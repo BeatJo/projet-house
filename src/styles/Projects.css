@@ -88,7 +88,7 @@
     position: absolute;
     background-color: rgba(0, 0, 0, 0.253);
     max-width: 100%;
-    width: 50%;
+    width: 100%;
     transform: translateX(0.5);
     top: 0;
     height: 170px;
@@ -102,11 +102,12 @@
 .projects-cards-plus-button {
     position: absolute;
     top: 60%;
+    color: #c5473b;
     background-color: white;
     padding: 10px 25px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    width: 25%;
+    width: max-content;
     font-size: 100%;
 }
 
@@ -263,4 +264,14 @@
   
   .section-right-side > div {
     display: flex;
+  }
+
+  .new-project-container {
+    display: flex;
+    width: 80%;
+    margin-bottom: 40px;
+    padding: 50px;
+    border: 1px solid #585b60;
+    border-radius: 30px;
+    justify-content: center;
   }

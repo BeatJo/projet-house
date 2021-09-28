@@ -45,7 +45,7 @@ const Header = ({headerActive, active}) => {
         </div>
       </div>
       <div className="nav-connect">
-        <ButtonRadius title="Lancer mon Projet !" borderColor={color ? "white" : '#c5473b'} fontColor="white" />
+        <ButtonRadius title="Lancer mon Projet !" path="/Login" borderColor={color ? "white" : '#c5473b'} fontColor="white" />
         <Link className="header-link" to="/Login">Connexion</Link>
       </div>
     </nav>

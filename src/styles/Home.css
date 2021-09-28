@@ -111,9 +111,9 @@
 }
 
 .experts-bio {
-  padding-bottom: 15px;
+  margin-bottom: 15px;
   overflow: hidden;
-  text-overflow: ellipsis;
+  text-overflow: clip;
   display: -webkit-box;
   -webkit-line-clamp: 1; /* number of lines to show */
   -webkit-box-orient: vertical;
