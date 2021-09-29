@@ -1,12 +1,14 @@
-import Header from "../Header";
 import '../../styles/Container.css'
-import { Footer } from "..";
+import { Footer, SideBar, Header } from "..";
 
-const Container = ({children, header, footer, headerActive, active}) => {
+const Container = ({children, header, footer, headerActive, active, sideBar}) => {
   return ( 
     <div>
       {header && <Header headerActive={headerActive} active={active} />}
-      <div style={{marginTop: headerActive ? 80 : 0}} className="container">{children}</div>
+      <div style={{display: sideBar ? 'flex' : ''}}>
+        {sideBar && <SideBar active={active} />}
+        <div style={{marginTop: sideBar ? 120 : 0}} className={sideBar ? "container container-side" : "container"}>{children}</div>
+      </div>
       {footer && <Footer />}
     </div>
    );

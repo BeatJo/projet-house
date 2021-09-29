@@ -2,3 +2,9 @@
   position: relative;
   width: auto;
 }
+
+.container-side {
+  margin: 0px 0px 0px 200px;
+  padding: 0px 100px;
+  width: 100vw;
+}

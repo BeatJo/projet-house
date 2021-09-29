@@ -10,6 +10,64 @@ import town3 from '../assets/img/open-uri.png'
 import proj1 from '../assets/img/proj1.png';
 import proj2 from '../assets/img/proj2.png';
 import proj3 from '../assets/img/proj3.png';
+import news1 from '../assets/img/news1.png';
+import news2 from '../assets/img/news2.png';
+
+const newsData = [
+    {
+        titleP: "Titre du projet",
+        title: 'Titre de la publication',
+        date: '21-08-2021',
+        hour: '12h00',
+        image: news1,
+        like: 5,
+        content: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam ", 
+    },
+    {
+        titleP: "Titre du projet",
+        title: 'Titre de la publication',
+        date: '21-08-2021',
+        hour: '12h00',
+        image: news2,
+        like: 2,
+        content: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam ", 
+    }
+]
+
+const investData = [
+    {
+        titleP: "Titre du projet",
+        category: "Agriculture",
+        location: 'Douala, Cameroun',
+        rentability: '20%',
+        ca: '50M FCFA',
+        rsi: '10ans'
+    },
+    {
+        titleP: "Titre du projet",
+        category: "Agriculture",
+        location: 'Douala, Cameroun',
+        rentability: '20%',
+        ca: '50M FCFA',
+        rsi: '10ans'
+    },
+    {
+        titleP: "Titre du projet",
+        category: "Agriculture",
+        location: 'Douala, Cameroun',
+        rentability: '20%',
+        ca: '50M FCFA',
+        rsi: '10ans'
+    },
+    {
+        titleP: "Titre du projet",
+        category: "Agriculture",
+        location: 'Douala, Cameroun',
+        rentability: '20%',
+        ca: '50M FCFA',
+        rsi: '10ans'
+    }
+]
 
 
 const sectionAct = [
@@ -2913,4 +2971,4 @@ const sectionAct = [
     },
 ]
 
-export {sectionAct}
+export {sectionAct, newsData, investData}
