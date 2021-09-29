@@ -1,7 +1,6 @@
 import { Container } from "@mui/material";
 import { FaDivide } from "react-icons/fa";
 import image1 from "../../assets/img/banproj.png";
-import "../../styles/ProjectBord.css";
 
 
 const InfoProjet = () => {

@@ -13,7 +13,7 @@ const ProjectsScreen = () => {
     <Container header footer headerActive active="Projects"> 
       <div className="projects-top" style={{backgroundImage: `url(${backgroundTop})`}}>
         <div className="search-bar-container" >
-          <h1 style={{zIndex:1000, color: 'white', fontFamily: "building", fontSize:60}}>LA MEILLEURE AFFAIRE S'OFFRE A VOUS</h1>
+          <h1 style={{zIndex:1, color: 'white', fontFamily: "building", fontSize:60}}>LA MEILLEURE AFFAIRE S'OFFRE A VOUS</h1>
           <div className="search-bar">
             <input placeholder="Rechercher" className="projects-text-input" type="text" name="search" id="" />
             <select className="projects-input-button" type="button" value="OK">

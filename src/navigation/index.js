@@ -1,8 +1,8 @@
 import { Switch, Route } from "react-router-dom";
-import { HomeScreen, LoginScreen, NewProjectScreen, ProjectsScreen } from "../screens";
+import { HomeScreen, LoginScreen, NewProjectScreen, ProjectsScreen, DashboardInvestScreen,DashboardProjectScreen } from "../screens";
+import { InvestScreen } from "../screens/DashboardInvesttScreen/components";
+import ProjectScreen from "../screens/DashboardProjectScreen/components/ProjectScreen";
 import { SectionPage, TownProjects } from "../screens/ProjectsScreen/components";
-import TableauBord from "../TableauDeBordProjet";
-import InfoProjet from "../TableauDeBordProjet/VotreProjet/votreprojet";
 
 const AppNavigator = () => {
   return ( 
@@ -13,8 +13,10 @@ const AppNavigator = () => {
       <Route exact path="/Projects/:sectionId/:name" component={SectionPage} />
       <Route exact path="/Projects/:sectionId/:name/:townId" component={TownProjects} />
       <Route exact path="/create-project" component={NewProjectScreen} />
-      <Route exact path="/TableauDeBord" component={TableauBord} />
-      <Route exact path="/informations" component={InfoProjet} />
+      <Route exact path="/Dashboard/Projects" component={DashboardProjectScreen} />
+      <Route exact path="/Dashboard/Invest" component={DashboardInvestScreen} />
+      <Route exact path="/Dashboard/Projects/:id/:name" component={ProjectScreen} />
+      <Route exact path="/Dashboard/Invest/:id/:name" component={InvestScreen} />
     </Switch>
    );
 }

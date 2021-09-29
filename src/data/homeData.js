@@ -94,6 +94,8 @@ const projectsData = [
     cash: "500",
     like: 100,
     contribution: 30,
+    url: 'www.invest--partners.com',
+    statut: 'idee'
   },
   {
     image: proj2,
@@ -101,7 +103,9 @@ const projectsData = [
     content: "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.",
     cash: "10",
     like: 250,
-    contribution: 20,  
+    contribution: 20,
+    url: 'www.invest--partners.com',
+    statut: 'marche'  
   },
   {
     image: proj3,
@@ -110,6 +114,8 @@ const projectsData = [
     cash: "500",
     like: 200,
     contribution: 25,
+    url: 'www.invest--partners.com',
+    statut: 'idee'
   },
   {
     image: proj3,
@@ -118,6 +124,8 @@ const projectsData = [
     cash: "500",
     like: 150,
     contribution: 10,
+    url: 'www.invest--partners.com',
+    statut: 'prototype'
 
   },
 ]
