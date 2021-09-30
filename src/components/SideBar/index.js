@@ -16,9 +16,9 @@ const SideBar = ({active}) => {
                 <p>INVEST {'&'} PARTNERS</p>
                 </div>
                 <div className="side-links-menu">
-                    <div className={active === 'Projects' ? "side-link side-link-active" : "side-link"}><AiOutlineHome fill="white" size={20} /><Link style={{textDecoration: 'none', color:"white"}} to="/">Mes projets</Link></div>
-                    <div className={active === 'Accueil' ? "side-link side-link-active" : "side-link"}><AiOutlineMail fill="white" size={20} /><Link style={{textDecoration: 'none', color:"white"}} to="/">Messagerie</Link></div>
-                    <div className={active === 'Accueil' ? "side-link side-link-active" : "side-link"}><AiOutlineSetting fill="white" size={20} /><Link style={{textDecoration: 'none', color:"white"}} to="/Projects">Paramètres</Link></div>
+                    <div className={active === 'Projects' ? "side-link side-link-active" : "side-link"}><AiOutlineHome fill="white" size={20} /><Link style={{textDecoration: 'none', color:"white"}} to="/Dashboard/Projects">Mes projets</Link></div>
+                    <div className={active === 'Messages' ? "side-link side-link-active" : "side-link"}><AiOutlineMail fill="white" size={20} /><Link style={{textDecoration: 'none', color:"white"}} to="/Dashboard/Projects/Messages">Messagerie</Link></div>
+                    <div className={active === 'Settings' ? "side-link side-link-active" : "side-link"}><AiOutlineSetting fill="white" size={20} /><Link style={{textDecoration: 'none', color:"white"}} to="/Dashboard/Projects/Settings">Paramètres</Link></div>
                 </div>
             </div>
             <div className="block-connected">

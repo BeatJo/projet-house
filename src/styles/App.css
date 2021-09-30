@@ -44,3 +44,12 @@
 body {
   font-family: 'karla-regular';
 }
+
+.button-radius {
+  color: #c5473b;
+}
+
+.button-radius:hover {
+  background-color: #c5473b;
+  color: white;
+}

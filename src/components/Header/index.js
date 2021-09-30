@@ -35,7 +35,7 @@ const Header = ({headerActive, active}) => {
           <Link className={active === 'Accueil' ? "header-link header-link-active" : "header-link"} to="/">Accueil</Link>
           <Link className={active === 'AboutUs' ? "header-link header-link-active" : "header-link"} to="/">Qui Sommes Nous?</Link>
           <Link className={active === 'Projects' ? "header-link header-link-active" : "header-link"} to="/Projects">Projets</Link>
-          <Link className={active === 'Events' ? "header-link header-link-active" : "header-link"} to="/">Évenements</Link>
+          <Link className={active === 'Events' ? "header-link header-link-active" : "header-link"} to="/Events">Évenements</Link>
           <Link className={active === 'Contact' ? "header-link header-link-active" : "header-link"} to="/">Contact</Link>
           {language === "fr" ? <img className="flag-language" src={flag_fr} /> : <img className="flag-language" src={flag_uk} />}
           <select onChange={(value) => setLanguage(value.target.value)} className="header-link" style={{outline: 'none', backgroundColor: 'transparent', color: 'white', border: 'none', marginTop: -8}}>
@@ -45,7 +45,7 @@ const Header = ({headerActive, active}) => {
         </div>
       </div>
       <div className="nav-connect">
-        <ButtonRadius title="Lancer mon Projet !" path="/Login" borderColor={color ? "white" : '#c5473b'} fontColor="white" />
+        <ButtonRadius title="Lancer mon Projet !" path="/Login" borderColor={color ? "white" : '#c5473b'} fontColor="white" /> 
         <Link className="header-link" to="/Login">Connexion</Link>
       </div>
     </nav>

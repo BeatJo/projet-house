@@ -1,6 +1,7 @@
 import { Switch, Route } from "react-router-dom";
-import { HomeScreen, LoginScreen, NewProjectScreen, ProjectsScreen, DashboardInvestScreen,DashboardProjectScreen } from "../screens";
+import { HomeScreen, LoginScreen, NewProjectScreen, ProjectsScreen, DashboardInvestScreen,DashboardProjectScreen, EventScreen } from "../screens";
 import { InvestScreen } from "../screens/DashboardInvesttScreen/components";
+import { MessagesScreen } from "../screens/DashboardProjectScreen/components";
 import ProjectScreen from "../screens/DashboardProjectScreen/components/ProjectScreen";
 import { SectionPage, TownProjects } from "../screens/ProjectsScreen/components";
 
@@ -17,6 +18,8 @@ const AppNavigator = () => {
       <Route exact path="/Dashboard/Invest" component={DashboardInvestScreen} />
       <Route exact path="/Dashboard/Projects/:id/:name" component={ProjectScreen} />
       <Route exact path="/Dashboard/Invest/:id/:name" component={InvestScreen} />
+      <Route exact path="/Dashboard/Projects/Messages" component={MessagesScreen} />
+      <Route exact path="/Events" component={EventScreen} />
     </Switch>
    );
 }
