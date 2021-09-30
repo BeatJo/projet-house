@@ -18,6 +18,10 @@ height: 200px;
     border-radius: 25px;
 }
 
+.test {
+    background-color: aqua;
+}
+
 .dash-project-image {
     display: flex;
     width: 100%;
@@ -122,4 +126,26 @@ padding: 20px;
     padding: 10px;
     background-color: #c5473b;
     border-radius: 100px 15px 15px 100px;
+}
+
+.message-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    border-bottom: 1px solid grey;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.message-line:hover {
+    background-color: #c5463b10;
+}
+
+.message-line-content {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* number of lines to show */
+    -webkit-box-orient: vertical;
 }

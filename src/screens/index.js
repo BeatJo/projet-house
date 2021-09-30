@@ -1,6 +1,6 @@
 import HomeScreen from './HomeScreen';
 import LoginScreen from './LoginScreen';
-import RegisterScreen from './RegisterScreen';
+import EventScreen from './EventScreen';
 import ProjectsScreen from './ProjectsScreen';
 import NewProjectScreen from './NewProjectScreen';
 import DashboardProjectScreen from './DashboardProjectScreen';
@@ -9,7 +9,7 @@ import DashboardInvestScreen from './DashboardInvesttScreen';
 export {
     HomeScreen, 
     LoginScreen, 
-    RegisterScreen, 
+    EventScreen, 
     ProjectsScreen,
     NewProjectScreen,
     DashboardProjectScreen,
