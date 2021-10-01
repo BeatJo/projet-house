@@ -73,6 +73,7 @@
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 }
 
 .button-price-events-component {
@@ -103,4 +104,13 @@
     color: white;
     border-radius: 5px;
     background-color: #c5463bd2;
+}
+
+.event-top-image {
+    height: 100%; 
+    width: 100%;
+    object-fit: cover;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    z-index: 0;
 }

@@ -136,6 +136,7 @@
 .modal {
   font-size: 18px;
   width: 100%;
+  z-index: 1001;
 }
 .modal > .modal-content {
   width: 100%;
@@ -336,13 +337,16 @@
 
 .events-hover-button {
   border: 1px solid #c5473b;
+  border-radius: 3px;
   width: max-content;
   margin: 10px;
   padding: 5px;
+  color: #c5473b;
   cursor: pointer;
 }
 .events-hover-button:hover {
   background-color: #c5473b;
+  color: white;
 }
 
 .img-banner {
