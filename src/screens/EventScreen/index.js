@@ -13,8 +13,10 @@ import { GoCalendar, GoLocation } from 'react-icons/go';
 import { Box, LinearProgress } from '@mui/material';
 import { BsBookmarkFill, BsBookmark } from 'react-icons/bs';
 import { TiCalendar } from 'react-icons/ti';
+import { useHistory } from 'react-router-dom';
 
 const EventScreen = () => {
+  const history = useHistory();
   return ( 
     <Container header active="Events" footer>
       <div 
@@ -169,7 +171,7 @@ const EventScreen = () => {
         </div>
         <div className="events-grid"> 
           {eventsData.map((item, index) => (
-            <div key={index} className="events-grid-component">
+            <div onClick={() => history.push(`/Events/${index}/${item.name}`)} key={index} className="events-grid-component">
               <Box sx={{width: '100%', position: 'relative'}}>
                 <img src={item.picture} width='100%' style={{borderRadius: 10}} />
                 <Box className="button-price-events-component">{item.price} XAF</Box>
@@ -218,9 +220,6 @@ const EventScreen = () => {
                   <LinearProgress sx={{width: '100%'}} variant="determinate" value={100-((item.remaining * 100)/ item.places)} />
                 </Box>
               </Box> 
-              <div>
-                
-              </div> 
             </div>
           ))}
         </div>

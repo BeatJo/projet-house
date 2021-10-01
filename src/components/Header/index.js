@@ -33,7 +33,7 @@ const Header = ({headerActive, active}) => {
         </div>
         <div className="head-menu">
           <Link className={active === 'Accueil' ? "header-link header-link-active" : "header-link"} to="/">Accueil</Link>
-          <Link className={active === 'AboutUs' ? "header-link header-link-active" : "header-link"} to="/">Qui Sommes Nous?</Link>
+          <Link className={active === 'AboutUs' ? "header-link header-link-active" : "header-link"} to="/AboutUs">Qui Sommes Nous?</Link>
           <Link className={active === 'Projects' ? "header-link header-link-active" : "header-link"} to="/Projects">Projets</Link>
           <Link className={active === 'Events' ? "header-link header-link-active" : "header-link"} to="/Events">Évenements</Link>
           <Link className={active === 'Contact' ? "header-link header-link-active" : "header-link"} to="/">Contact</Link>
