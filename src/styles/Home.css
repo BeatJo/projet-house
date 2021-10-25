@@ -380,8 +380,8 @@
   z-index: 10;
 }
 .prevArrow, .forwardArrow {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   color: aliceblue;
   cursor: pointer;
   padding: 10px;

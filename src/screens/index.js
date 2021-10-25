@@ -7,6 +7,8 @@ import DashboardProjectScreen from './DashboardProjectScreen';
 import DashboardInvestScreen from './DashboardInvesttScreen';
 import EventPageScreen from './EventPageScreen';
 import AboutUsScreen from './AboutUsScreen';
+import InvestEnterpriseScreen from './InvestEnterpriseScreen';
+import FinanceEnterpriseScreen from './FinanceEnterpriseScreen';
 
 export {
     HomeScreen, 
@@ -17,5 +19,7 @@ export {
     NewProjectScreen,
     DashboardProjectScreen,
     DashboardInvestScreen,
-    AboutUsScreen
+    AboutUsScreen,
+    InvestEnterpriseScreen,
+    FinanceEnterpriseScreen
 }

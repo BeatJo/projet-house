@@ -62,7 +62,6 @@ const PersonalInfosScreen = () => {
       
       setFullscreen(!fullScreen);
     }
-    const backgroundImage = picProfile ? {backgroundImage: `url(${imgData})`} : null;
     const previewClasses = ['preview', fullScreen ? 'preview--fullscreen' : ''].join(' ');    
 
   const [values, setValues] = React.useState({
@@ -119,7 +118,6 @@ const PersonalInfosScreen = () => {
           />
           <div
             className={previewClasses}
-            style={backgroundImage}
             onClick={handlePreviewClick}
           >
             {!picProfile && !loadingPicProfile &&
