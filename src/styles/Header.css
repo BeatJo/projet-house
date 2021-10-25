@@ -6,10 +6,10 @@
     flex-direction: row;
     justify-content: space-between;
     background-color: transparent;
-    height: 60px;
+    height: 80px;
     width: 100%;
     z-index: 1000;
-    padding: 10px 0;
+    padding: 10px 10px;
     color: white;
 }
 
@@ -21,10 +21,10 @@
     flex-direction: row;
     justify-content: space-between;
     background-color: #c5473b;
-    height: 60px;
+    height: 80px;
     width: 100%;
     z-index: 1000;
-    padding: 10px 0;
+    padding: 10px 10px;
     color: white;
 }
 .nav-menu {
